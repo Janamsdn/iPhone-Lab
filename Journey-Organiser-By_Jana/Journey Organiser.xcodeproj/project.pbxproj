@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F07848D1810306C00D924BF /* travelicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F07848C1810306C00D924BF /* travelicon@2x.png */; };
+		D4CD6429174B706E002C2596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CD6428174B706E002C2596 /* UIKit.framework */; };
+		D4CD642B174B706E002C2596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CD642A174B706E002C2596 /* Foundation.framework */; };
+		D4CD642D174B706E002C2596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CD642C174B706E002C2596 /* CoreGraphics.framework */; };
+		D4CD6435174B706E002C2596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD6434174B706E002C2596 /* main.m */; };
+		D4CD6439174B706E002C2596 /* NJDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD6438174B706E002C2596 /* NJDAppDelegate.m */; };
+		D4CD643B174B706E002C2596 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CD643A174B706E002C2596 /* Default.png */; };
+		D4CD643D174B706E002C2596 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CD643C174B706E002C2596 /* Default@2x.png */; };
+		D4CD643F174B706E002C2596 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CD643E174B706E002C2596 /* Default-568h@2x.png */; };
+		D4CD6442174B706E002C2596 /* NJDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD6441174B706E002C2596 /* NJDViewController.m */; };
+		D4CD6445174B706E002C2596 /* NJDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CD6443174B706E002C2596 /* NJDViewController.xib */; };
+		D4CD644C174B7203002C2596 /* NJDTravelCards.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4CD644B174B7203002C2596 /* NJDTravelCards.plist */; };
+		D4CD6455174B809A002C2596 /* NJDViewControllerSorted.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD6453174B809A002C2596 /* NJDViewControllerSorted.m */; };
+		D4CD6456174B809A002C2596 /* NJDViewControllerSorted.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CD6454174B809A002C2596 /* NJDViewControllerSorted.xib */; };
+		D4CD645C174B83C5002C2596 /* NJDViewControllerSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD645A174B83C5002C2596 /* NJDViewControllerSorting.m */; };
+		D4CD645D174B83C5002C2596 /* NJDViewControllerSorting.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CD645B174B83C5002C2596 /* NJDViewControllerSorting.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F07848C1810306C00D924BF /* travelicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travelicon@2x.png"; sourceTree = "<group>"; };
+		D4CD6425174B706E002C2596 /* Journey Organiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journey Organiser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CD6428174B706E002C2596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4CD642A174B706E002C2596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4CD642C174B706E002C2596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4CD6430174B706E002C2596 /* Journey Organiser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Journey Organiser-Info.plist"; sourceTree = "<group>"; };
+		D4CD6434174B706E002C2596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CD6437174B706E002C2596 /* NJDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJDAppDelegate.h; sourceTree = "<group>"; };
+		D4CD6438174B706E002C2596 /* NJDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJDAppDelegate.m; sourceTree = "<group>"; };
+		D4CD643A174B706E002C2596 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4CD643C174B706E002C2596 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4CD643E174B706E002C2596 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4CD6440174B706E002C2596 /* NJDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJDViewController.h; sourceTree = "<group>"; };
+		D4CD6441174B706E002C2596 /* NJDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJDViewController.m; sourceTree = "<group>"; };
+		D4CD6444174B706E002C2596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NJDViewController.xib; sourceTree = "<group>"; };
+		D4CD644B174B7203002C2596 /* NJDTravelCards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NJDTravelCards.plist; sourceTree = "<group>"; };
+		D4CD6452174B809A002C2596 /* NJDViewControllerSorted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJDViewControllerSorted.h; path = ../NJDViewControllerSorted.h; sourceTree = "<group>"; };
+		D4CD6453174B809A002C2596 /* NJDViewControllerSorted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJDViewControllerSorted.m; path = ../NJDViewControllerSorted.m; sourceTree = "<group>"; };
+		D4CD6454174B809A002C2596 /* NJDViewControllerSorted.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NJDViewControllerSorted.xib; path = ../NJDViewControllerSorted.xib; sourceTree = "<group>"; };
+		D4CD6459174B83C5002C2596 /* NJDViewControllerSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDViewControllerSorting.h; sourceTree = "<group>"; };
+		D4CD645A174B83C5002C2596 /* NJDViewControllerSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJDViewControllerSorting.m; sourceTree = "<group>"; };
+		D4CD645B174B83C5002C2596 /* NJDViewControllerSorting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJDViewControllerSorting.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4CD6422174B706E002C2596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CD6429174B706E002C2596 /* UIKit.framework in Frameworks */,
+				D4CD642B174B706E002C2596 /* Foundation.framework in Frameworks */,
+				D4CD642D174B706E002C2596 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4CD641C174B706E002C2596 = {
+			isa = PBXGroup;
+			children = (
+				5F07848C1810306C00D924BF /* travelicon@2x.png */,
+				D4CD642E174B706E002C2596 /* Journey Organiser */,
+				D4CD6427174B706E002C2596 /* Frameworks */,
+				D4CD6426174B706E002C2596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CD6426174B706E002C2596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CD6425174B706E002C2596 /* Journey Organiser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4CD6427174B706E002C2596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4CD6428174B706E002C2596 /* UIKit.framework */,
+				D4CD642A174B706E002C2596 /* Foundation.framework */,
+				D4CD642C174B706E002C2596 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4CD642E174B706E002C2596 /* Journey Organiser */ = {
+			isa = PBXGroup;
+			children = (
+				D4CD6437174B706E002C2596 /* NJDAppDelegate.h */,
+				D4CD6438174B706E002C2596 /* NJDAppDelegate.m */,
+				D4CD6440174B706E002C2596 /* NJDViewController.h */,
+				D4CD6441174B706E002C2596 /* NJDViewController.m */,
+				D4CD6443174B706E002C2596 /* NJDViewController.xib */,
+				D4CD6459174B83C5002C2596 /* NJDViewControllerSorting.h */,
+				D4CD645A174B83C5002C2596 /* NJDViewControllerSorting.m */,
+				D4CD645B174B83C5002C2596 /* NJDViewControllerSorting.xib */,
+				D4CD6452174B809A002C2596 /* NJDViewControllerSorted.h */,
+				D4CD6453174B809A002C2596 /* NJDViewControllerSorted.m */,
+				D4CD6454174B809A002C2596 /* NJDViewControllerSorted.xib */,
+				D4CD644B174B7203002C2596 /* NJDTravelCards.plist */,
+				D4CD642F174B706E002C2596 /* Supporting Files */,
+			);
+			path = "Journey Organiser";
+			sourceTree = "<group>";
+		};
+		D4CD642F174B706E002C2596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CD6430174B706E002C2596 /* Journey Organiser-Info.plist */,
+				D4CD6434174B706E002C2596 /* main.m */,
+				D4CD643A174B706E002C2596 /* Default.png */,
+				D4CD643C174B706E002C2596 /* Default@2x.png */,
+				D4CD643E174B706E002C2596 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4CD6424174B706E002C2596 /* Journey Organiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CD6448174B706E002C2596 /* Build configuration list for PBXNativeTarget "Journey Organiser" */;
+			buildPhases = (
+				D4CD6421174B706E002C2596 /* Sources */,
+				D4CD6422174B706E002C2596 /* Frameworks */,
+				D4CD6423174B706E002C2596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Journey Organiser";
+			productName = "Journey Organiser";
+			productReference = D4CD6425174B706E002C2596 /* Journey Organiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CD641D174B706E002C2596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NJD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nicholas Dean";
+			};
+			buildConfigurationList = D4CD6420174B706E002C2596 /* Build configuration list for PBXProject "Journey Organiser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4CD641C174B706E002C2596;
+			productRefGroup = D4CD6426174B706E002C2596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CD6424174B706E002C2596 /* Journey Organiser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CD6423174B706E002C2596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CD643B174B706E002C2596 /* Default.png in Resources */,
+				D4CD643D174B706E002C2596 /* Default@2x.png in Resources */,
+				D4CD643F174B706E002C2596 /* Default-568h@2x.png in Resources */,
+				D4CD6445174B706E002C2596 /* NJDViewController.xib in Resources */,
+				D4CD644C174B7203002C2596 /* NJDTravelCards.plist in Resources */,
+				D4CD6456174B809A002C2596 /* NJDViewControllerSorted.xib in Resources */,
+				D4CD645D174B83C5002C2596 /* NJDViewControllerSorting.xib in Resources */,
+				5F07848D1810306C00D924BF /* travelicon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CD6421174B706E002C2596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CD6435174B706E002C2596 /* main.m in Sources */,
+				D4CD6439174B706E002C2596 /* NJDAppDelegate.m in Sources */,
+				D4CD6442174B706E002C2596 /* NJDViewController.m in Sources */,
+				D4CD6455174B809A002C2596 /* NJDViewControllerSorted.m in Sources */,
+				D4CD645C174B83C5002C2596 /* NJDViewControllerSorting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4CD6443174B706E002C2596 /* NJDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CD6444174B706E002C2596 /* en */,
+			);
+			name = NJDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4CD6446174B706E002C2596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4CD6447174B706E002C2596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4CD6449174B706E002C2596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Journey Organiser/Journey Organiser-Prefix.pch";
+				INFOPLIST_FILE = "Journey Organiser/Journey Organiser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4CD644A174B706E002C2596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Journey Organiser/Journey Organiser-Prefix.pch";
+				INFOPLIST_FILE = "Journey Organiser/Journey Organiser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4CD6420174B706E002C2596 /* Build configuration list for PBXProject "Journey Organiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CD6446174B706E002C2596 /* Debug */,
+				D4CD6447174B706E002C2596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CD6448174B706E002C2596 /* Build configuration list for PBXNativeTarget "Journey Organiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CD6449174B706E002C2596 /* Debug */,
+				D4CD644A174B706E002C2596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4CD641D174B706E002C2596 /* Project object */;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+	</array>
+	<key>Details</key>
+	<array>
+		<string>Departing from gate 45B. Baggage will we  drop at ticket counter 344. </string>
+		<string>N/A</string>
+		<string>N/A</string>
+		<string>Departing from gate 22. Baggage will we  automatically transferred from your last leg.</string>
+	</array>
+	<key>Seat</key>
+	<array>
+		<string>3A</string>
+		<string>78A</string>
+		<string>N/A</string>
+		<string>7B</string>
+	</array>
+	<key>Destination</key>
+	<array>
+		<string>London</string>
+		<string>Barcelona</string>
+		<string>Gerona Airport</string>
+		<string>New York JFK</string>
+	</array>
+	<key>Depart</key>
+	<array>
+		<string>Gerona Airport</string>
+		<string>Madrid</string>
+		<string>Barcelona</string>
+		<string>London</string>
+	</array>
+	<key>Transport</key>
+	<array>
+		<string>Plane</string>
+		<string>Train</string>
+		<string>Bus</string>
+		<string>Plane</string>
+	</array>
+	<key>TransportNumber</key>
+	<array>
+		<string>SK455</string>
+		<string>78A</string>
+		<string>(Airport)</string>
+		<string>SK22</string>
+	</array>
+</dict>
+</plist>

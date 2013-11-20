@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF4092A181E92D600F1D27A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF40929181E92D600F1D27A /* UIKit.framework */; };
+		5FF4092C181E92D600F1D27A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF4092B181E92D600F1D27A /* Foundation.framework */; };
+		5FF4092E181E92D600F1D27A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF4092D181E92D600F1D27A /* CoreGraphics.framework */; };
+		5FF40934181E92D600F1D27A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40932181E92D600F1D27A /* InfoPlist.strings */; };
+		5FF40936181E92D600F1D27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF40935181E92D600F1D27A /* main.m */; };
+		5FF4093A181E92D600F1D27A /* TVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF40939181E92D600F1D27A /* TVAppDelegate.m */; };
+		5FF4093C181E92D600F1D27A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4093B181E92D600F1D27A /* Default.png */; };
+		5FF4093E181E92D600F1D27A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4093D181E92D600F1D27A /* Default@2x.png */; };
+		5FF40940181E92D600F1D27A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4093F181E92D600F1D27A /* Default-568h@2x.png */; };
+		5FF40943181E92D600F1D27A /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF40942181E92D600F1D27A /* TVViewController.m */; };
+		5FF40946181E92D600F1D27A /* TVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40944181E92D600F1D27A /* TVViewController.xib */; };
+		5FF4094F181EA68E00F1D27A /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4094E181EA68E00F1D27A /* creme_brelee.jpg */; };
+		5FF40961181EA88700F1D27A /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40951181EA88700F1D27A /* angry_birds_cake.jpg */; };
+		5FF40962181EA88700F1D27A /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40952181EA88700F1D27A /* creme_brelee.jpg */; };
+		5FF40963181EA88700F1D27A /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40953181EA88700F1D27A /* egg_benedict.jpg */; };
+		5FF40964181EA88700F1D27A /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40954181EA88700F1D27A /* full_breakfast.jpg */; };
+		5FF40965181EA88700F1D27A /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40955181EA88700F1D27A /* green_tea.jpg */; };
+		5FF40966181EA88700F1D27A /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40956181EA88700F1D27A /* ham_and_cheese_panini.jpg */; };
+		5FF40967181EA88700F1D27A /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40957181EA88700F1D27A /* ham_and_egg_sandwich.jpg */; };
+		5FF40968181EA88700F1D27A /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40958181EA88700F1D27A /* hamburger.jpg */; };
+		5FF40969181EA88700F1D27A /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40959181EA88700F1D27A /* instant_noodle_with_egg.jpg */; };
+		5FF4096A181EA88700F1D27A /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4095A181EA88700F1D27A /* japanese_noodle_with_pork.jpg */; };
+		5FF4096B181EA88700F1D27A /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4095B181EA88700F1D27A /* mushroom_risotto.jpg */; };
+		5FF4096C181EA88700F1D27A /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4095C181EA88700F1D27A /* noodle_with_bbq_pork.jpg */; };
+		5FF4096D181EA88700F1D27A /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4095D181EA88700F1D27A /* starbucks_coffee.jpg */; };
+		5FF4096E181EA88700F1D27A /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4095E181EA88700F1D27A /* thai_shrimp_cake.jpg */; };
+		5FF4096F181EA88700F1D27A /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4095F181EA88700F1D27A /* vegetable_curry.jpg */; };
+		5FF40970181EA88700F1D27A /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40960181EA88700F1D27A /* white_chocolate_donut.jpg */; };
+		5FF40972181EAA6C00F1D27A /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF40971181EAA6C00F1D27A /* SimpleTableCell.xib */; };
+		5FF40978181EB20200F1D27A /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF40977181EB20200F1D27A /* SimpleTableCell.m */; };
+		5FF4097D181EF99E00F1D27A /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FF4097C181EF99E00F1D27A /* recipes.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FF40926181E92D600F1D27A /* SimpleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF40929181E92D600F1D27A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FF4092B181E92D600F1D27A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FF4092D181E92D600F1D27A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FF40931181E92D600F1D27A /* SimpleTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableView-Info.plist"; sourceTree = "<group>"; };
+		5FF40933181E92D600F1D27A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FF40935181E92D600F1D27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FF40937181E92D600F1D27A /* SimpleTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTableView-Prefix.pch"; sourceTree = "<group>"; };
+		5FF40938181E92D600F1D27A /* TVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVAppDelegate.h; sourceTree = "<group>"; };
+		5FF40939181E92D600F1D27A /* TVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVAppDelegate.m; sourceTree = "<group>"; };
+		5FF4093B181E92D600F1D27A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5FF4093D181E92D600F1D27A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5FF4093F181E92D600F1D27A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5FF40941181E92D600F1D27A /* TVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVViewController.h; sourceTree = "<group>"; };
+		5FF40942181E92D600F1D27A /* TVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVViewController.m; sourceTree = "<group>"; };
+		5FF40945181E92D600F1D27A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TVViewController.xib; sourceTree = "<group>"; };
+		5FF4094E181EA68E00F1D27A /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = ../../../../../creme_brelee.jpg; sourceTree = "<group>"; };
+		5FF40951181EA88700F1D27A /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angry_birds_cake.jpg; path = ../../../../../../Downloads/simpletable_image_pack/angry_birds_cake.jpg; sourceTree = "<group>"; };
+		5FF40952181EA88700F1D27A /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = ../../../../../../Downloads/simpletable_image_pack/creme_brelee.jpg; sourceTree = "<group>"; };
+		5FF40953181EA88700F1D27A /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = egg_benedict.jpg; path = ../../../../../../Downloads/simpletable_image_pack/egg_benedict.jpg; sourceTree = "<group>"; };
+		5FF40954181EA88700F1D27A /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = full_breakfast.jpg; path = ../../../../../../Downloads/simpletable_image_pack/full_breakfast.jpg; sourceTree = "<group>"; };
+		5FF40955181EA88700F1D27A /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = green_tea.jpg; path = ../../../../../../Downloads/simpletable_image_pack/green_tea.jpg; sourceTree = "<group>"; };
+		5FF40956181EA88700F1D27A /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_cheese_panini.jpg; path = ../../../../../../Downloads/simpletable_image_pack/ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		5FF40957181EA88700F1D27A /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_egg_sandwich.jpg; path = ../../../../../../Downloads/simpletable_image_pack/ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		5FF40958181EA88700F1D27A /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamburger.jpg; path = ../../../../../../Downloads/simpletable_image_pack/hamburger.jpg; sourceTree = "<group>"; };
+		5FF40959181EA88700F1D27A /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instant_noodle_with_egg.jpg; path = ../../../../../../Downloads/simpletable_image_pack/instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		5FF4095A181EA88700F1D27A /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = japanese_noodle_with_pork.jpg; path = ../../../../../../Downloads/simpletable_image_pack/japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		5FF4095B181EA88700F1D27A /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mushroom_risotto.jpg; path = ../../../../../../Downloads/simpletable_image_pack/mushroom_risotto.jpg; sourceTree = "<group>"; };
+		5FF4095C181EA88700F1D27A /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noodle_with_bbq_pork.jpg; path = ../../../../../../Downloads/simpletable_image_pack/noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		5FF4095D181EA88700F1D27A /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = starbucks_coffee.jpg; path = ../../../../../../Downloads/simpletable_image_pack/starbucks_coffee.jpg; sourceTree = "<group>"; };
+		5FF4095E181EA88700F1D27A /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thai_shrimp_cake.jpg; path = ../../../../../../Downloads/simpletable_image_pack/thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		5FF4095F181EA88700F1D27A /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vegetable_curry.jpg; path = ../../../../../../Downloads/simpletable_image_pack/vegetable_curry.jpg; sourceTree = "<group>"; };
+		5FF40960181EA88700F1D27A /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = white_chocolate_donut.jpg; path = ../../../../../../Downloads/simpletable_image_pack/white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		5FF40971181EAA6C00F1D27A /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		5FF40976181EB20200F1D27A /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		5FF40977181EB20200F1D27A /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		5FF4097C181EF99E00F1D27A /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = recipes.plist; path = ../../../../../Downloads/SimpleTable/SimpleTable/recipes.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF40923181E92D600F1D27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF4092A181E92D600F1D27A /* UIKit.framework in Frameworks */,
+				5FF4092C181E92D600F1D27A /* Foundation.framework in Frameworks */,
+				5FF4092E181E92D600F1D27A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF4091D181E92D600F1D27A = {
+			isa = PBXGroup;
+			children = (
+				5FF4092F181E92D600F1D27A /* SimpleTableView */,
+				5FF40928181E92D600F1D27A /* Frameworks */,
+				5FF40927181E92D600F1D27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF40927181E92D600F1D27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF40926181E92D600F1D27A /* SimpleTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF40928181E92D600F1D27A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF40929181E92D600F1D27A /* UIKit.framework */,
+				5FF4092B181E92D600F1D27A /* Foundation.framework */,
+				5FF4092D181E92D600F1D27A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FF4092F181E92D600F1D27A /* SimpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5FF4097C181EF99E00F1D27A /* recipes.plist */,
+				5FF40950181EA87500F1D27A /* ImageSource */,
+				5FF40938181E92D600F1D27A /* TVAppDelegate.h */,
+				5FF40939181E92D600F1D27A /* TVAppDelegate.m */,
+				5FF40941181E92D600F1D27A /* TVViewController.h */,
+				5FF40942181E92D600F1D27A /* TVViewController.m */,
+				5FF40944181E92D600F1D27A /* TVViewController.xib */,
+				5FF40930181E92D600F1D27A /* Supporting Files */,
+				5FF40971181EAA6C00F1D27A /* SimpleTableCell.xib */,
+				5FF40976181EB20200F1D27A /* SimpleTableCell.h */,
+				5FF40977181EB20200F1D27A /* SimpleTableCell.m */,
+			);
+			path = SimpleTableView;
+			sourceTree = "<group>";
+		};
+		5FF40930181E92D600F1D27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF40931181E92D600F1D27A /* SimpleTableView-Info.plist */,
+				5FF40932181E92D600F1D27A /* InfoPlist.strings */,
+				5FF40935181E92D600F1D27A /* main.m */,
+				5FF40937181E92D600F1D27A /* SimpleTableView-Prefix.pch */,
+				5FF4093B181E92D600F1D27A /* Default.png */,
+				5FF4093D181E92D600F1D27A /* Default@2x.png */,
+				5FF4093F181E92D600F1D27A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FF40950181EA87500F1D27A /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				5FF40951181EA88700F1D27A /* angry_birds_cake.jpg */,
+				5FF40952181EA88700F1D27A /* creme_brelee.jpg */,
+				5FF40953181EA88700F1D27A /* egg_benedict.jpg */,
+				5FF40954181EA88700F1D27A /* full_breakfast.jpg */,
+				5FF40955181EA88700F1D27A /* green_tea.jpg */,
+				5FF40956181EA88700F1D27A /* ham_and_cheese_panini.jpg */,
+				5FF40957181EA88700F1D27A /* ham_and_egg_sandwich.jpg */,
+				5FF40958181EA88700F1D27A /* hamburger.jpg */,
+				5FF40959181EA88700F1D27A /* instant_noodle_with_egg.jpg */,
+				5FF4095A181EA88700F1D27A /* japanese_noodle_with_pork.jpg */,
+				5FF4095B181EA88700F1D27A /* mushroom_risotto.jpg */,
+				5FF4095C181EA88700F1D27A /* noodle_with_bbq_pork.jpg */,
+				5FF4095D181EA88700F1D27A /* starbucks_coffee.jpg */,
+				5FF4095E181EA88700F1D27A /* thai_shrimp_cake.jpg */,
+				5FF4095F181EA88700F1D27A /* vegetable_curry.jpg */,
+				5FF40960181EA88700F1D27A /* white_chocolate_donut.jpg */,
+				5FF4094E181EA68E00F1D27A /* creme_brelee.jpg */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF40925181E92D600F1D27A /* SimpleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF40949181E92D600F1D27A /* Build configuration list for PBXNativeTarget "SimpleTableView" */;
+			buildPhases = (
+				5FF40922181E92D600F1D27A /* Sources */,
+				5FF40923181E92D600F1D27A /* Frameworks */,
+				5FF40924181E92D600F1D27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTableView;
+			productName = SimpleTableView;
+			productReference = 5FF40926181E92D600F1D27A /* SimpleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF4091E181E92D600F1D27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = jana;
+			};
+			buildConfigurationList = 5FF40921181E92D600F1D27A /* Build configuration list for PBXProject "SimpleTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FF4091D181E92D600F1D27A;
+			productRefGroup = 5FF40927181E92D600F1D27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF40925181E92D600F1D27A /* SimpleTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF40924181E92D600F1D27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF40934181E92D600F1D27A /* InfoPlist.strings in Resources */,
+				5FF4093C181E92D600F1D27A /* Default.png in Resources */,
+				5FF4093E181E92D600F1D27A /* Default@2x.png in Resources */,
+				5FF40940181E92D600F1D27A /* Default-568h@2x.png in Resources */,
+				5FF40946181E92D600F1D27A /* TVViewController.xib in Resources */,
+				5FF4094F181EA68E00F1D27A /* creme_brelee.jpg in Resources */,
+				5FF40961181EA88700F1D27A /* angry_birds_cake.jpg in Resources */,
+				5FF40962181EA88700F1D27A /* creme_brelee.jpg in Resources */,
+				5FF40963181EA88700F1D27A /* egg_benedict.jpg in Resources */,
+				5FF40964181EA88700F1D27A /* full_breakfast.jpg in Resources */,
+				5FF40965181EA88700F1D27A /* green_tea.jpg in Resources */,
+				5FF40966181EA88700F1D27A /* ham_and_cheese_panini.jpg in Resources */,
+				5FF40967181EA88700F1D27A /* ham_and_egg_sandwich.jpg in Resources */,
+				5FF40968181EA88700F1D27A /* hamburger.jpg in Resources */,
+				5FF40969181EA88700F1D27A /* instant_noodle_with_egg.jpg in Resources */,
+				5FF4096A181EA88700F1D27A /* japanese_noodle_with_pork.jpg in Resources */,
+				5FF4096B181EA88700F1D27A /* mushroom_risotto.jpg in Resources */,
+				5FF4096C181EA88700F1D27A /* noodle_with_bbq_pork.jpg in Resources */,
+				5FF4096D181EA88700F1D27A /* starbucks_coffee.jpg in Resources */,
+				5FF4096E181EA88700F1D27A /* thai_shrimp_cake.jpg in Resources */,
+				5FF4096F181EA88700F1D27A /* vegetable_curry.jpg in Resources */,
+				5FF40970181EA88700F1D27A /* white_chocolate_donut.jpg in Resources */,
+				5FF40972181EAA6C00F1D27A /* SimpleTableCell.xib in Resources */,
+				5FF4097D181EF99E00F1D27A /* recipes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF40922181E92D600F1D27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF40936181E92D600F1D27A /* main.m in Sources */,
+				5FF4093A181E92D600F1D27A /* TVAppDelegate.m in Sources */,
+				5FF40943181E92D600F1D27A /* TVViewController.m in Sources */,
+				5FF40978181EB20200F1D27A /* SimpleTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FF40932181E92D600F1D27A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF40933181E92D600F1D27A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FF40944181E92D600F1D27A /* TVViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF40945181E92D600F1D27A /* en */,
+			);
+			name = TVViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF40947181E92D600F1D27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FF40948181E92D600F1D27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF4094A181E92D600F1D27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableView/SimpleTableView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableView/SimpleTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FF4094B181E92D600F1D27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableView/SimpleTableView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableView/SimpleTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF40921181E92D600F1D27A /* Build configuration list for PBXProject "SimpleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF40947181E92D600F1D27A /* Debug */,
+				5FF40948181E92D600F1D27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF40949181E92D600F1D27A /* Build configuration list for PBXNativeTarget "SimpleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF4094A181E92D600F1D27A /* Debug */,
+				5FF4094B181E92D600F1D27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF4091E181E92D600F1D27A /* Project object */;
+}
